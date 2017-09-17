@@ -12,3 +12,5 @@
 
 # DT2W
 /sys/android_touch/doubletap2wake                                     u:object_r:sysfs_dt2w:s0
+
+/(vendor|system/vendor)/bin/hw/android\.hardware\.usb@1\.0-service\.msm8956       u:object_r:hal_usb_default_exec:s0
