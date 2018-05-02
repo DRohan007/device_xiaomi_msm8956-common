@@ -60,9 +60,6 @@ persist.data.netmgrd.qos.enable=true
 persist.data.mode=concurrent
 persist.data.iwlan.enable=true
 
-# Delayed restart
-ro.am.reschedule_service=true
-
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/config
 
