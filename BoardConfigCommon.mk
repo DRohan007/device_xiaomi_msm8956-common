@@ -103,6 +103,7 @@ TARGET_TS_MAKEUP := true
 
 # Charger
 BOARD_CHARGER_ENABLE_SUSPEND := true
+WITH_CM_CHARGER := false
 
 # CNE
 BOARD_USES_QCNE := true
