@@ -537,7 +537,7 @@ service hci_filter_root /system/bin/wcnss_filter
     group bluetooth diag system
     disabled
 
-service hciattach /system//vendor/bin/hci_qcomm_init -e
+service hciattach /system/vendor/bin/hci_qcomm_init -e
     class late_start
     user bluetooth
     group bluetooth net_bt_admin
